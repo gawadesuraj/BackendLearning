@@ -23,6 +23,7 @@ const register = async ({name, email, password, role}) => {
     delete userObj.password,
     delete userObj.varificationToken
 
+
     return userObj;
 }
 
