@@ -9,7 +9,7 @@ const start = async () => {
         console.log(`DB connection failed with error : ${err}`);
     });
     app.listen(PORT, () => {
-        console.log(`server is running at the ${PORT} in ${process.env.NODE_ENV}`);
+        console.log(`server is running at ${PORT} in ${process.env.NODE_ENV}`);
     });
 };
 
